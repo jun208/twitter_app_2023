@@ -9,7 +9,7 @@ function AppRouter({isLoggedIn, userObj}) {
 
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     {isLoggedIn &&   <Navigation userObj={userObj}/>} 
     {/* &연산자 - true일 경우에만 실행 */}
       <Routes>
