@@ -18,12 +18,6 @@ storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
 messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
 appId: process.env.REACT_APP_APP_ID
 
-  // apiKey: "AIzaSyAA_IC_FYbvQLiK1X2lbxoRK2mZbnbsr8M",
-  // authDomain: "twitter-8992b.firebaseapp.com",
-  // projectId: "twitter-8992b",
-  // storageBucket: "twitter-8992b.appspot.com",
-  // messagingSenderId: "279135697727",
-  // appId: "1:279135697727:web:a56580dacb619d8719318a"
 
 };
 
